@@ -80,13 +80,6 @@ const Profile = () => {
       name: "mobileNuber",
       value: mobileNumber,
     },
-    {
-      label: "location",
-      placeholder: "+2349078985443",
-      type: "",
-      name: "mobileNuber",
-      value: mobileNumber,
-    },
   ];
   return (
     <div className="w-[95%] md:w-[90%] lg:w-[80%] m-auto ">
