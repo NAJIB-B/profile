@@ -80,13 +80,8 @@ const Profile = () => {
       name: "mobileNuber",
       value: mobileNumber,
     },
-    {
-      label: "location",
-      placeholder: "+2349078985443",
-      type: "",
-      name: "mobileNuber",
-      value: mobileNumber,
-    },
+    
+    
   ];
   return (
     <div className="w-[95%] md:w-[90%] lg:w-[80%] m-auto ">
@@ -125,6 +120,9 @@ const Profile = () => {
                         </div>
                       );
                     })}
+                     <div className=" w-[100%] md:w-[97%]   border  outline-[none] p-[1.5rem] mb-[1.5rem]">
+                      <State_options></State_options>
+                    </div>
                   </div>
                   <label>Email Address</label>
                   <br />
